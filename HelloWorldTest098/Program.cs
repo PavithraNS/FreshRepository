@@ -12,6 +12,7 @@ namespace HelloWorldTest098
         {
             Console.WriteLine("Welcome");
             Console.WriteLine("Changes made in Remote");
+            Console.WriteLine("Creating conflict from remote");
             Console.Read();
         }
     }
