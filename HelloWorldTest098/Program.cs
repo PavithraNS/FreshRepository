@@ -11,7 +11,9 @@ namespace HelloWorldTest098
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome");
-            Console.WriteLine("git diff");
+            //className variale=new className()
+            FibonocciSeries series = new FibonocciSeries();
+            series.FindFibonocciSeries();
             Console.Read();
         }
 
