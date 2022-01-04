@@ -11,6 +11,7 @@ namespace HelloWorldTest098
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome");
+            Console.WriteLine("git diff");
             Console.Read();
         }
 
