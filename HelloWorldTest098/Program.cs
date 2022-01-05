@@ -11,9 +11,7 @@ namespace HelloWorldTest098
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome");
-            //className variale=new className()
-            FibonocciSeries series = new FibonocciSeries();
-            series.FindFibonocciSeries();
+            ReverseNumber.FindReverse();
             Console.Read();
         }
 
