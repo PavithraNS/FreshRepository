@@ -14,7 +14,8 @@ namespace HelloWorldTest098
             //className variale=new className()
             FibonocciSeries series = new FibonocciSeries();
             series.FindFibonocciSeries();
-            Console.Read();
+            int res=Console.Read();
+            Console.WriteLine("input is="+res);
         }
 
     }
