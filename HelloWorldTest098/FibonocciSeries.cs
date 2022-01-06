@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Test;
 
 namespace HelloWorldTest098
 {
@@ -32,6 +33,7 @@ namespace HelloWorldTest098
                 Console.Write(" " + result);
                 result = firstNum + secondNum; 
             }
+            Console.WriteLine();
             
         } 
     }
